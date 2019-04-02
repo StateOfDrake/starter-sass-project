@@ -9,14 +9,19 @@
 </ul>
 
 <h2>Required</h2>
-<code>npm install gulp-cli -g</code>
+<ul>
+  <li>Node.js</li>
+  <li>Gulp<br>
+  <code>npm install gulp-cli -g</code></li>
+  <li>Visual Studio Code (or git)</li>
+</ul>
 
 <h2>Steps on Terminal</h2>
 <h3>Initial Start</h3>
 <pre>npm init
 npm install --save-dev gulp gulp-sass browser-sync</pre>
 
-<h3>Run Sass compiler & sync browsers</h3>
+<h3>Run sass compiler & sync browsers</h3>
 <p>Runs in the background until cancelled</p>
 <pre>gulp watch</pre>
 
