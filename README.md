@@ -1,4 +1,4 @@
-# starter-sass-project
+# Starter Sass Project
 About:
   Sass, JavaScript, Browser Sync, Server, Watch SCSS and JS files
 
