@@ -9,18 +9,17 @@ Sass, JavaScript, Browser Sync, Server, Watch SCSS and JS files
 
 ## Required
   - Node.js</li>
-  - Gulp
-  `> npm install gulp-cli -g`
+  - Gulp<br>`> npm install gulp-cli -g`
   - Visual Studio Code (or git)
 
 ## Steps on Terminal
 ### Initial Start
-  `> npm init`
-  
-  `> npm install --save-dev gulp gulp-sass browser-sync`
+  ```
+  > npm init
+  > npm install --save-dev gulp gulp-sass browser-sync
+  ```
 
 ### Run sass compiler & sync browsers
 Runs in the background until cancelled
 
 `> gulp watch`
-
